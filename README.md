@@ -1,5 +1,5 @@
 
-1. Primeiro de permissão de execução para os script
+1. Primeiro dê permissão de execução para os script
 	~~~bash
 	chmod +x *.sh
 	~~~
