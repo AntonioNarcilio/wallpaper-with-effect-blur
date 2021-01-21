@@ -28,10 +28,11 @@ function createWallpaper() {
 			-compose 'over' -composite \
 			-extent "$WIDTH x $HEIGHT" "${imgs[$i]}"-edited.png
 
+
+			echo -e "\e[30;42m 🔎 Wallpaper criado: "${imgs[$i]}-edited.png" \e[0m"
+			echo ""
+
 	done			
 
 }
-
-createWallpaper
-
 			

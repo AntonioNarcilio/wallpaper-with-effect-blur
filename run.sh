@@ -2,6 +2,8 @@
 
 # Importando arquivo
 source './an-rounded_corners.sh'
-# Chamando função
-creatingImgWithBorderAndRoundedCorners
+source './an-create_wallpaper.sh'
 
+# Chamando função
+# creatingImgWithBorderAndRoundedCorners
+createWallpaper
