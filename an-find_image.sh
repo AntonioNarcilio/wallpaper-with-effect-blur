@@ -46,7 +46,7 @@ function searchImage() {
 
 	# Procurando images no formato jpg
 	function findJpg() {
-		ls *jpg > jpg-out.txt 
+		ls *jpg > jpg-out.txt
 
 		# 📑 Lendo arquivo linha por linha e passando para uma variavel
 		cont=0
@@ -86,7 +86,7 @@ function searchImage() {
 
 	# Procurando images no formato jpeg
 	function findJpeg() {
-		ls *jpeg > jpeg-out.txt 
+		ls *jpeg > jpeg-out.txt
 
 		# 📑 Lendo arquivo linha por linha e passando para uma variavel
 		cont=0
@@ -133,7 +133,7 @@ function searchImage() {
 	echo ""
 
 	# Exportando variavel
-	export imgs=(${imgFiles[@]})
+	export imgs=("${imgFiles[@]}")
 
   # Removendo arquivo desnecesario 
 	rm *-out.txt
